@@ -1,13 +1,17 @@
+@function well-url($path) {
+  @return url("../components/iman-styles-well/assets/#{$path}");
+}
+
 .well {
   box-shadow: 0 2px 3px rgba(black, 0.1) inset;
   border-radius: 3px;
 }
 
 .well--empty {
-  background: url('../local/well/assets/stripes.png');
+  background: well-url('stripes.png');
   border: 1px solid #cecece;
   .retina & {
-    background: url('../local/well/assets/stripes@2x.png');
+    background: well-url('stripes@2x.png');
     background-size: 50%;
   }
 }
