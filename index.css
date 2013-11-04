@@ -1,6 +1,3 @@
-@function well-url($path) {
-  @return url("../components/iman-styles-well/assets/#{$path}");
-}
 
 .well {
   box-shadow: 0 2px 3px rgba(black, 0.1) inset;
@@ -8,10 +5,10 @@
 }
 
 .well--empty {
-  background: well-url('stripes.png');
+  background: url('assets/stripes.png');
   border: 1px solid #cecece;
   .retina & {
-    background: well-url('stripes@2x.png');
+    background: url('assets/stripes@2x.png');
     background-size: 50%;
   }
 }

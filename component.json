@@ -1,13 +1,13 @@
 {
   "name": "well",
-  "main": "index.scss",
-  "version": "0.0.1",
+  "main": "index.css",
+  "version": "0.1.0",
   "dependencies": {},
   "files": [
     "assets/stripes.png",
     "assets/stripes@2x.png"
   ],
   "styles": [
-    "index.scss"
+    "index.css"
   ]
 }
